@@ -85,7 +85,7 @@ Partial Class InfoPerso
         Button1.Name = "Button1"
         Button1.Size = New Size(94, 29)
         Button1.TabIndex = 6
-        Button1.Text = "Button1"
+        Button1.Text = "confirmer"
         Button1.UseVisualStyleBackColor = True
         ' 
         ' InfoPerso

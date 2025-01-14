@@ -39,9 +39,10 @@ Partial Class GestionVol
         ' 
         DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
         DataGridView1.Columns.AddRange(New DataGridViewColumn() {NumVol, Dest, DTE, Heure, NBPLCDispo, Prix})
-        DataGridView1.Location = New Point(12, 12)
+        DataGridView1.Location = New Point(12, 47)
         DataGridView1.Name = "DataGridView1"
         DataGridView1.RowHeadersWidth = 51
+        DataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect
         DataGridView1.Size = New Size(803, 190)
         DataGridView1.TabIndex = 0
         ' 
