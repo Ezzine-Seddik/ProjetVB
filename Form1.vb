@@ -1,7 +1,10 @@
 ﻿Imports System.IO
 Imports System.Runtime.Serialization.Formatters.Binary
 Public Class Form1
-    'module pour ovriri une interface dans la meme fenetre'
+    Public volList As New List(Of vol)
+    Public clientist As New List(Of compte)
+    Public ListReserv As New List(Of reserve)
+    'module pour ovrir une interface dans la meme fenetre'
     Public Sub ShowForm(formToShow As Form)
         Panel1.Controls.Clear()
         formToShow.TopLevel = False
@@ -16,9 +19,12 @@ Public Class Form1
         Dim vol As Integer
         Dim depart As String
         Dim destination As String
-        Dim temp As DateTime
+        Dim temp As String
         Dim places_dispo As Integer
     End Structure
+
+
+
 
 
 
